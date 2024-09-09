@@ -30,11 +30,11 @@ body{
        
 }
 #container::before {
-   content: "";
+    content: "";
     background-image: url("bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
      opacity: 0.6;  
      inset: 0;
    position: absolute;
@@ -89,7 +89,7 @@ h1{
     padding-bottom: 5px;
     margin-top: 10px;
     
-    width: 125vmin;
+    width: 110vmin;
     border-bottom: 4px rgb(3, 24, 62) solid;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -234,5 +234,9 @@ img{
     width: 19vmin;
 
    }
+   h1{
+    width: 50vmax;
+   }
+   
 
 }
